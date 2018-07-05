@@ -3,6 +3,30 @@ This is a demo project to see how DHTMLX performs using [DHTMLX Optimus Framewor
 # Demo
 [gius.nl](http://gius.nl/dhtmlx-es6/)
 
+## SPA + browser history + PickLists
+
+This implementation is build as Single Page Application (SPA) that not only  keeps track of the view you have opened, but also the record that is displayed. When navigationg across views forth and back the location within the program is remembered. Also Limited lists, aka PickList are implemented. 
+
+![](tutorial_images/Screenshot_20180705_073212.png)
+
+# Collapsable SideBar + DatePicker + Sync accross Components
+
+When the 'hamburger-menu' is clicked, the SideBar is toggled. When clicking a date field, a DatePicker is shown and when editing data on the grid, the form is updated and vice versa.
+
+![](tutorial_images/Screenshot_20180705_083504.png)
+
+# Field validation / Read-Only Fields
+
+An example of field-level validation is created on the Contacts-view. Also read-only fields are implemented on form-level such as the Id, also note the e-mail link.
+
+![](tutorial_images/Screenshot_20180705_083824.png)
+
+# Checked Combo + Font Awesome
+
+On the Projects-view the Multi-value list 'Assigned to' is a Combo with checkboxes. The field on grid-level is read-only. The icons on the SideBar and ToolBar are not images, but fontawesome. So this is kept in the browser's cache and improves performance.
+
+![](tutorial_images/Screenshot_20180705_073133.png)
+
 # Related projects
 
 1. [Your First App tutorial](https://docs.dhtmlx.com/tutorials__first_app__index.html) showing you the basis or DHX
@@ -19,6 +43,7 @@ This is a demo project to see how DHTMLX performs using [DHTMLX Optimus Framewor
 - [x] Add missing GUI's to create,update,delete data (sales, events, settings)
 - [x] Restructure data to save dateTypes in real dates, numberTypes in real numbers, implement bounded picklists
 - [ ] Add the REST API from [My version of CRM System - demo app](https://github.com/rkristelijn/dhtmlx-json-node)
+  - [ ] @see [Forked project](https://github.com/rkristelijn/dhtmlx-json-node-es6)
 
 # Solved challenges
 - [x] Structure code in a way that is reusable, easy to read and maintain
